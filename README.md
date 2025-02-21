@@ -22,4 +22,3 @@ The script is executed in several stages:
 17) Download and install Node Exporter
 18) Create systemd service for Node Exporter
 19) Start and enable Node Exporter service
-20) 
