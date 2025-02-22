@@ -1,10 +1,10 @@
 - name: Install and Configure Prometheus, Grafana, Alertmanager, and Node Exporter
   hosts: monitoring_servers
   become: yes
-  remote_user: tuxadm
+  remote_user: tuxadm # Here insert your SSH user
   vars:
-    ansible_ssh_pass: Pass_12345
-    ansible_become_password: Pass_12345
+    ansible_ssh_pass: Pass_12345 # Here insert your SSH user's password
+    ansible_become_password: Pass_12345 # Here insert your SSH sodoer user's password 
     prometheus_version: "2.31.1"
     alertmanager_version: "0.23.0"
     grafana_version: "8.3.3"
